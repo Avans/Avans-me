@@ -13,8 +13,8 @@ passport.deserializeUser(function(profile, done) {
 });
 
 passport.use(new AvansStrategy({
-    consumerKey: '201cb65cc4f38f60d4f35e677dd5d119a12d9294',
-    consumerSecret: '2c9cbe2064fa43d9b57fb47982de3d986f319eda',
+    consumerKey: 'a426c4d5174434743b80fb514446fe221093df73',
+    consumerSecret: '10b969d02eb3dc1d198e4b47df899887fa60baec',
     callbackURL: '/callback'
   },
   function(token, tokenSecret, profile, done) {
